@@ -22,6 +22,11 @@ public class SpawnManager : MonoBehaviour
             case 2: newPos = previousPosition + new Vector3(-offset, 0, 0); break; // West
             case 3: newPos = previousPosition + new Vector3(offset, 0, 0); break; // East
         }
+        if (newPos == Vector3.zero || newPos == previousPosition)
+        {
+            Debug.LogWarning("Spawn logic failed! Forcing Forward spawn.");
+            newPos = previousPosition + new Vector3(0, 0, offset);
+        }
 
         Instantiate(pulpitPrefab, newPos, Quaternion.identity);
     }
