@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18890318, y: -0, z: -0, w: 0.98199576}
-  m_LocalPosition: {x: -0.655, y: 5.04, z: -9.93}
+  m_LocalRotation: {x: 0.2659208, y: -0, z: -0, w: 0.9639949}
+  m_LocalPosition: {x: -0.655, y: 6.42, z: -9.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 694632425}
-  m_LocalEulerAnglesHint: {x: 21.778, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.843, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,6 +920,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1480003232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3435728611822239317, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
+  m_PrefabInstance: {fileID: 7853697919159672599}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshPro
 --- !u!1001 &4808447586071495620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1039,10 +1050,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 6307912928799551008, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 1480003232}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8975095428376692140, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
