@@ -9,16 +9,23 @@ public class GameManager : MonoBehaviour
     public GameObject startScreen;
     public GameObject gameOverScreen;
     public TMPro.TMP_Text scoreText;
-
+    void Awake() // <--- ADD THIS BLOCK
+    {
+        Instance = this;
+    }
     void Start() 
     {
          // Pause game at start
-         Time.timeScale = 0;
+         //Time.timeScale = 0;
+
+         //TEMPORARY REMOVE AFTER YOU GET UI
+         Time.timeScale = 1;
     }
 
     public void StartGame()
     {
-        startScreen.SetActive(false);
+        
+        //startScreen.SetActive(false);
         Time.timeScale = 1;
         // Spawn the very first pulpit manually here
         SpawnManager.Instance.SpawnPulpit(Vector3.zero); 
@@ -32,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Time.timeScale = 0;
-        gameOverScreen.SetActive(true);
+       // Time.timeScale = 0;
+        //gameOverScreen.SetActive(true);
     }
 }
