@@ -343,7 +343,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2659208, y: -0, z: -0, w: 0.9639949}
-  m_LocalPosition: {x: -0.655, y: 6.42, z: -9.14}
+  m_LocalPosition: {x: -0.655, y: 4.72, z: -7.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -619,7 +619,7 @@ Light:
     m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.6
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -672,13 +672,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.4935411, y: -0.30725735, z: 0.0801078, w: 0.80968696}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 58.044, y: -52.251, z: -19.143}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1174,8 +1174,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.2569885, y: 0}
-  m_SizeDelta: {x: 4.514, y: 0}
+  m_AnchoredPosition: {x: 2.2569885, y: 5.9642944}
+  m_SizeDelta: {x: 4.514, y: 11.9286}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318360222
 MonoBehaviour:
@@ -1978,6 +1978,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3435728611822239317, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
+      propertyPath: m_fontSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3435728611822239317, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3435728611822239317, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3969833501808175279, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.71114
@@ -2026,6 +2038,10 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1480003232}
+    - target: {fileID: 6776876431220169033, guid: 76662728a5fd46142975b3cba6ad16bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.76
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
