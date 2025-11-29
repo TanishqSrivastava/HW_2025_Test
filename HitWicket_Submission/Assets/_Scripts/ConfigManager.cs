@@ -14,10 +14,10 @@ public class ConfigManager : MonoBehaviour
 
     void LoadConfig()
     {
-        // For simplicity in editor:
+        
         TextAsset jsonFile = Resources.Load<TextAsset>("doofus_diary");
         Config = JsonUtility.FromJson<GameConfig>(jsonFile.text);
         
-        // Note: In a real build, you might use Application.streamingAssetsPath
+        
     }
 }
